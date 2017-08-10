@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useFlickr="true"
+	flickrUserName="pawsaroundmotown"
+	flickrTags="PAM32016"
+	flickrImageCount="91"
+	galleryTitle="Paws Around Motown March 2016"
+	useThumbDots="false"
+	useFullscreenExpand="true"/>
