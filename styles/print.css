@@ -1,0 +1,251 @@
+body {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	font-family: Courier;
+}
+
+#headerSection{
+	background-color: white;
+	margin-top: 1px;
+}
+
+.headerBlock{
+	display: inline-block;
+}
+
+header {
+	text-align: center;
+	color: #424242;
+}
+
+header img {
+	width: 150px;
+	height: 150px;
+}
+
+nav {
+	display: none;
+}
+
+.navButton {
+	display: none;
+}
+.navButton:hover {
+	background-color: #3299BB;
+}
+.navButton:active {
+	position:relative;
+	top:10px;
+}
+
+.pageTitle {
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+}
+
+#contentOne {
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#contentOne h1 {
+	
+}
+
+.aboutContent {
+	display: inline-block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutContent h1 {
+	color: #3299BB;
+	text-align: center;
+}
+
+.centerDiv {
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+
+
+#contentOne img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+#contentTwo {
+	background-color: #BCBCBC;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+.subContent {
+	height: 220px;
+	width: 240px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding: 10px 5px 10px 5px;
+	background-color: #3299BB;
+	font-family: Courier;
+	display: inline-block;
+}
+
+.subContent ul li {
+	text-align: left;
+	padding-top: 5px;
+	
+}
+
+.subContentWide {
+	width: 60%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 10px 15px 10px;
+	background-color: #3299BB;
+	font-family: Courier;
+	text-align: left;
+	color: black;
+}
+
+.pricingContent {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 100%;
+	color: black;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+}
+
+.pricingContent h2 {
+	color: black;
+	padding-top: 5px;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+caption {
+	color: black; 
+	text-align: center;
+	
+}
+
+.svg {
+	width: 340px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: #3299BB;
+}
+
+.svg img {
+	height: 200px;
+	width: 300px;
+}
+
+.rfi {
+	display: none;
+}
+
+.rfiButton {
+	display: none;
+}
+.rfiButton:hover {
+	background-color: #3299BB;
+}
+
+
+form {
+	width: 60%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 10px 15px 10px;
+	background-color: white;
+	font-family: Courier;
+	text-align: left;
+	color: black;
+}
+
+#formSection {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+#formSection p {
+	text-align: left;
+}
+
+#formSection input, textarea, abbr {
+	float: right;
+}
+
+.jpgPictures {
+	width: 400px;
+	height: auto;
+	border: 2px solid #BCBCBC;
+}
+
+footer {
+	background-color: black;
+}
+
+#footerLinks {
+	display: none;
+}
+
+#footerLinks a {
+	color: black;
+}
+
+#footerInfo {
+	margin-top: 5px;
+	color: white;
+	text-align: center;
+}
+
+#footerInfo a {
+	color: black;
+}
+
+.socialMedia {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#socialMediaIcon {
+	width: 100px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
