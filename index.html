@@ -2,16 +2,17 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		
+
 		<title>Paws Around Motown</title>
-		
+
 		<meta name="description" content="Paws Around Motown - Professional Dog Walking Around Metro Detroit">
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-		<meta name="keywords" content="Dogs,Walking,Metro Detroit,Puppies,Dog Walkers,Dog Walking,Berkley,Royal Oak,Ferndale,Huntington Woods,Pleasant Ridge,Oak Park">
+		<meta name="keywords" content="Dogs,Walking,Metro Detroit,Puppies,Dog Walkers,Dog Walking,Berkley,Royal Oak,Ferndale,Huntington Woods,Pleasant Ridge,Oak Park, West Bloomfield,Waterford,Lathrup Village,Franklin,Beverly Hills,Detroit">
 		<meta name="author" content="David Lea">
 		<meta name="google-site-verification" content="4MW2Yc1iry7pSGIfxv86ruYNMnBaBHNztJS2Q7Q7WDE"/>
-		
+
 		<link rel="stylesheet" type="text/css" href="styles/desktop.css">
+		<link rel="stylesheet" type="text/css" href="styles/youtube-style.css">
 		<link rel="stylesheet" href="styles/print.css" type="text/css" media="print">
 
 		<!-- Favicon Section -->
@@ -35,22 +36,20 @@
 
   			ga('create', 'UA-90333058-1', 'auto');
   			ga('send', 'pageview');
-
 		</script>
 
 	</head>
 
 	<body>
 		<div>
-			
 			<div id="headerSection">
-		
+
 				<header>
 					<div class="headerBlock">
 						<img src="images/pawsaroundmotown-horizontal-crop.png" alt="Paws Around Motown">
 					</div>
 				</header>
-			
+
 				<nav>
 					<a href="#" class="navButton">Home</a>
 					<a href="about.html" class="navButton">About</a>
@@ -60,22 +59,19 @@
 					<a href="faq.html" class="navButton">FAQ</a>
 					<a href="https://www.petsitclick.com/customer_portal.a5w?company=pawsaroundmotown" class="navButton">Customer Portal</a>
 				</nav>
-			
+
 			</div>
 
 			<div id="contentOne">
-			
 				<h2>Professional dog walking and pet sitting around Metro Detroit.</h2>
 				<h2>By fully bonded and insured pet lovers.</h2>
 				<img id="homePagePicture" class="mobileHide" src="images/homedog.jpg" alt="Walking Dog"/>
-			
 			</div>
 
 			<div id="contentTwo">
-
 				<div class="subContent">
 					<h3>Dog Walking</h3>
-					
+
 					<ul>
 						<li>30, 45, and 60 minute sessions</li>
 						<li>Discounted monthly packages</li>
@@ -83,10 +79,10 @@
 						<li>Free consultations</li>
 					</ul>
 				</div>
-				
+
 				<div class="subContent">
 					<h3>Overnight Stays</h3>
-					
+
 					<ul>
 						<li>Keep your pet(s) in the comfort and safety of their own home</li>
 						<li>Keep your pet(s) on their regular routine</li>
@@ -97,7 +93,7 @@
 
 				<div class="subContent">
 					<h3>And More</h3>
-					
+
 					<ul>
 						<li>Vacation visits</li>
 						<li>Yard waste clean up</li>
@@ -107,20 +103,50 @@
 						<li>Pet transportation</li>
 						<li>Free consultations for all services</li>
 					</ul>
-					
+
 				</div>
-				
+
 				<div class="rfi">
 					<a href="rfi.html" class="rfiButton">Request More Information</a>
 				</div>
-				
+
+				<!-- video wrapper -->
+				<h3>Check us out on City Cable 15 - Southfield!</h3>
+				<div class="youtube" data-embed="7FhwCYasLX8">
+    			<div class="play-button"></div>
+				</div>
+
 				<div id="logos">
-					
 						<img src="images/psa_logo.jpg">
-					
 				</div>
 
 			</div>
+
+			<script>
+			( function() {
+
+				var youtube = document.querySelectorAll( ".youtube" );
+
+				for (var i = 0; i < youtube.length; i++) {
+					var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
+					var image = new Image();
+					image.src = source;
+					image.addEventListener( "load", function() {
+						youtube[ i ].appendChild( image );
+					}( i ) );
+
+					youtube[i].addEventListener( "click", function() {
+						var iframe = document.createElement( "iframe" );
+								iframe.setAttribute( "frameborder", "0" );
+								iframe.setAttribute( "allowfullscreen", "" );
+								iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+								this.innerHTML = "";
+								this.appendChild( iframe );
+							} );
+						};
+		} )();
+		</script>
 
 			<footer>
 				<div id="footerLinks">
@@ -132,12 +158,12 @@
 					<a href="faq.html">FAQ</a>
 					<a href="https://www.petsitclick.com/customer_portal.a5w?company=pawsaroundmotown">Customer Portal</a>
 				</div>
-				
+
 				<div id="footerInfo">
-					Paws Around Motown LLC &copy;2014 <br>
+					Paws Around Motown LLC &copy;2014<br>
 					<a href="mailto:pawsaroundmotown@gmail.com?subject=Feedback">pawsaroundmotown@gmail.com</a>
 					<a href="tel:248-729-6772">248-729-6772</a>
-					
+
 				</div>
 			</footer>
 		</div>
