@@ -15,6 +15,11 @@ html, body {
 	background: #BCBCBC;
 }
 
+#header-section img {
+	margin-left: 50px;
+	max-width: 75%;
+}
+
 .nav-link {
 	background: #EEDD22;
 	color: #424242;
@@ -22,8 +27,13 @@ html, body {
 	margin-right: 5px;
 }
 
+.nav-link:hover {
+	background-color: #EE7621;
+	color: #424242;
+}
+
 #hero-section {
-	background-image: url("../images/homedog.jpg");
+	background-image: url("../images/winston_hero.jpg");
 	height: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
