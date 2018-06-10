@@ -10,11 +10,9 @@
 		<meta name="keywords" content="Dogs,Walking,Metro Detroit,Puppies,Dog Walkers,Dog Walking,Berkley,Royal Oak,Ferndale,Huntington Woods,Pleasant Ridge,Oak Park">
 		<meta name="author" content="David Lea">
 		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="styles/desktop.css">
 		<link rel="stylesheet" href="styles/print.css" type="text/css" media="print">
-		
-		<!-- Salesforce Web to Lead requirement -->
-		<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
 		<!-- Favicon Section -->
 		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -81,53 +79,28 @@
 					
 					</div> 
 				</div>	
-				
-				<div id="rfitable">
-				
+			
 				<form action="https://mailthis.to/pawsaroundmotown" method="POST">
-					<input type=hidden name="retURL" value="http://www.pawsaroundmotown.com">
+					<div class="form-group">
+						<input  id="first_name" class="form-control" required="true" placeholder="First Name" name="first_name" type="text" />
+					</div>
+					<div class="form-group">
+						<input  id="last_name" class="form-control" required="true" placeholder="Last Name" name="last_name" type="text" />
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="email-one" placeholder="Email" />
+					</div>
+					<div class="form-group">
+						<input  id="phone" class="form-control" required="" placeholder="Phone Number" name="phone" type="tel" />
+					</div>
+					<div class="form-group">
+						<input id="city" class="form-control" required="" placeholder="City" name="city" type="text" />
+					</div>
+					<input type="hidden" name="_subject" value="Contact form submitted">
+    				<input type="hidden" name="_after" value="http://pawsaroundmotown.com">
 					
-					<table>
-						
-					<tr>
-						<td>
-							<input  id="first_name" required="true" placeholder="First Name" maxlength="255" name="first_name" size="100" type="text" />
-						</td>
-					</tr>
-					
-					<tr>
-						<td>
-							<input id="last_name" required="true" placeholder="Last Name" maxlength="255" name="last_name" size="100" type="text" />
-						</td>
-					</tr>
-					
-					<tr>			
-						<td>
-							<input id="email" required="true" placeholder="Email" maxlength="255" name="email" size="100" type="email" />
-						</td>
-					</tr>
-					
-					<tr>				
-						<td>
-							<input  id="phone" required="" placeholder="Phone Number" maxlength="40" name="phone" size="100" type="tel" />
-						</td>
-					</tr>
-					
-					<tr>
-						<td>
-							<input id="city" required="" placeholder="City" maxlength="255" name="city" size="100" type="text" />
-						</td>
-					</tr>
-					
-					<tr>
-						<td>
-							<input type="submit" required="" name="submit" value="Submit">
-						</td>
-					</tr>
-					
-					</table>
-					
-				</form>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				  </form>
 
 			</div>
 
