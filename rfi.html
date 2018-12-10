@@ -84,53 +84,38 @@
 				
 				<div id="rfitable">
 				
-				<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
-					<input type=hidden name="oid" value="00Dj00000028L82">
+				<form action="https://mailthis.to/pawsaroundmotown" method="POST">
 					<input type=hidden name="retURL" value="http://www.pawsaroundmotown.com">
-
-					<!--  ----------------------------------------------------------------------  -->
-					<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-					<!--  these lines if you wish to test in debug mode.                          -->
-					<!--  <input type="hidden" name="debug" value=1>                              -->
-					<!--  <input type="hidden" name="debugEmail" value="davegt40@gmail.com">      -->
-					<!--  ----------------------------------------------------------------------  -->
 					
 					<table>
 						
 					<tr>
 						<td>
-							<input  id="first_name" required="" placeholder="First Name" maxlength="40" name="first_name" size="20" type="text" />
+							<input  id="first_name" required="true" placeholder="First Name" maxlength="255" name="first_name" size="100" type="text" />
 						</td>
 					</tr>
 					
 					<tr>
 						<td>
-							<input id="last_name" required="" placeholder="Last Name" maxlength="80" name="last_name" size="20" type="text" />
+							<input id="last_name" required="true" placeholder="Last Name" maxlength="255" name="last_name" size="100" type="text" />
 						</td>
 					</tr>
 					
 					<tr>			
 						<td>
-							<input id="email" required="" placeholder="Email" maxlength="80" name="email" size="20" type="email" />
+							<input id="email" required="true" placeholder="Email" maxlength="255" name="email" size="100" type="email" />
 						</td>
 					</tr>
 					
 					<tr>				
 						<td>
-							<input  id="phone" required="" placeholder="Phone Number" maxlength="40" name="phone" size="20" type="tel" />
+							<input  id="phone" required="" placeholder="Phone Number" maxlength="40" name="phone" size="100" type="tel" />
 						</td>
 					</tr>
 					
 					<tr>
 						<td>
-							<input id="city" required="" placeholder="City" maxlength="40" name="city" size="20" type="text" />
-						</td>
-					</tr>
-					
-					<tr>
-						<td>
-							<input id="state" required="" placeholder="State" maxlength="20" name="state" size="20" type="text" />
+							<input id="city" required="" placeholder="City" maxlength="255" name="city" size="100" type="text" />
 						</td>
 					</tr>
 					
